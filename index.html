@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,41 +8,72 @@
     <title>Hotel Booking</title>
     <link rel="stylesheet" href="pages/index.css">
 </head>
+
 <body>
     <div class="page">
         <header class="header">
-            <a href="#" class="header__logo">HotelBooking</a>
+            <a href="#" class="header__logo"></a>
             <nav class="header__links">
                 <ul class="header__items">
-                    <li class="header__item"><a href="#" class=header__link>Дома</a></li>
-                    <li class="header__item"><a href="#" class=header__link>Бронирование</a></li>
-                    <li class="header__item"><a href="#" class=header__link>Контакты</a></li>
+                    <li><a href="#" class=header__link>Дома</a></li>
+                    <li><a href="#" class=header__link>Бронирование</a></li>
+                    <li><a href="#" class=header__link>Контакты</a></li>
                 </ul>
             </nav>
-            <button class="button" value="Бронировать">Бронировать</button>
+            <button class="button button_place_header">Бронировать</button>
         </header>
 
         <main class="content">
             <section class="lead">
                 <div class="lead__content">
-                <h1 class="lead__title">Аренда загородного дома для отдыха</h1>
-                <p class="lead__subtitle">Самые выгодные предложения по аренде коттеджей 
-                    и загородных домов в Москве и области</p>
-                <button name="nubex" value="Nubex" class="button">Бронирование</button>
-                <button name="nubex" value="Nubex">
-                    <img style="vertical-align: middle; width: 24px;" src="http://nubex.ru/files/siroezhkin/icon.png" alt="" />
-                    Конструктор сайтов "Нубекс"
-                    </button>
-            </div>
-                <ul class="lead__images">
-                    <li class="lead__image lead__image_position_up"><img src="./images/meritt-thomas-u-Hb93V6IWI-unsplash 1.jpg" alt="Фото коллаж дома - 1"></li>
-                    <li class="lead__image lead__image_position_down"><img src="./images/meritt-thomas-u-Hb93V6IWI-unsplash 2.jpg"  alt="Фото коллаж дома - 2"></li>
-                    <li class="lead__image lead__image_position_up"><img src="./images/meritt-thomas-u-Hb93V6IWI-unsplash 3.jpg" alt="Фото коллаж дома - 3"></li>
+                    <h1 class="lead__title">Аренда загородного дома для отдыха</h1>
+                    <p class="lead__subtitle">Самые выгодные предложения по аренде коттеджей
+                        и загородных домов в Москве и области</p>
+                    <button name="intro" class="button">Бронирование</button>
+
                 </div>
-            </section>
+                <ul class="lead__images">
+                    <li class="lead__image lead__image_position_up"><img
+                            src="./images/meritt-thomas-u-Hb93V6IWI-unsplash 1.jpg" alt="Фото коллаж дома - 1"></li>
+                    <li class="lead__image lead__image_position_down"><img
+                            src="./images/meritt-thomas-u-Hb93V6IWI-unsplash 2.jpg" alt="Фото коллаж дома - 2"></li>
+                    <li class="lead__image lead__image_position_up"><img
+                            src="./images/meritt-thomas-u-Hb93V6IWI-unsplash 3.jpg" alt="Фото коллаж дома - 3"></li>
+                </section>
 
+                <section class="intro">
+                    <img src="./images/intro__image.jpg" class="intro__image">
+                        <article class="intro__content">
+                            <h2 class="intro__title">Уютный двухэтажный дом в норвежском стиле</h2>
+                            <p class="intro__text">Просторные коттеджи с видом на лес полностью укомплектованы: 
+                                кондиционер, холодильник, посудомоечная машина, газовая плита, духовка, 
+                                микроволновая печь, чайник, набор посуды и столовых приборов. В каждом коттедже: 
+                                стиральная машина, гладильная станция, сушилка для белья, фен. </p>
+                            <button class="button">Подробнее</button>
+                        </article>
+                </section>
 
-        </main>
-     </div>
+                <section class="about-us">
+                    <div class="about-us__cards">
+                        <article class="about-us__card">
+                            <div class="about-us__content">
+                                <h2 class="about-us__title">Активности</h2>
+                                <p class="about-us__text">К вашим услугам наши прекрасные повора, которые приготовят вкусную еду по составленную для вас персональному меню. Также вы сможете воспользоваться СПА, тренажерным залом и прочими услугами, доступными на нашей территории.</h2>
+                            </div>
+                            <img src="./images/about-us__image1.jpg" class="about-us__image" alt="Активности">
+                        </article>
+
+                        <article class="about-us__card">
+                            <div class="about-us__content">
+                                <h2 class="about-us__title">100% Натуральные продукты</h2>
+                                <p class="about-us__text">При приготовлении наших блюд мы используем только свежие, полезные, натуральные продукты.</h2>
+                            </div>
+                            <img src="./images/about-us__image2.jpg" class="about-us__image" alt="Продукты">
+                        </article>
+                    </div>
+                </section>
+                </main>
+    </div>
 </body>
+
 </html>

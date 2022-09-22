@@ -2,7 +2,7 @@
     min-width: 136px; 
     min-height: 47px;  
     margin: 0;
-    padding: 0 16px;
+    padding: 16px 32px;
     background: #0E1734;
     border-radius: 4px;
     font-family: 'Inter';
@@ -10,10 +10,13 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    color: #FFFFFF;
-    transition: opacity 1s ease;
+    color: #FFF;
+    cursor: pointer;
+    transition: background-color .3s linear, color .3s linear;
+    border: 2px solid #0e1734;
 }
 
 .button:hover {
-    opacity: 0.7;
+    background-color: #FFF;
+    color: #0e1734
 }

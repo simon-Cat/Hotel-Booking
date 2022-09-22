@@ -1,6 +1,10 @@
 .header__logo {
+    background-image: url(../../../images/Logo.svg);
+    width: 228px;
+    height: 39px;
+    background-repeat: no-repeat;
     text-decoration: none;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 32px;

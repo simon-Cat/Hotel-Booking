@@ -1,0 +1,6 @@
+.about-us__cards {
+    max-width: 1094px;
+    display: flex;
+    flex-direction: column;
+}
+

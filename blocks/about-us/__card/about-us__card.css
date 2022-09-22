@@ -1,0 +1,11 @@
+.about-us__card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 32px 0;
+    padding: 0;
+}
+
+.about-us__card:nth-child(2n) {
+    flex-direction: row-reverse;
+}

@@ -1,7 +1,10 @@
-.header {
+.lead {
     max-width: 100%;
+    min-height: 845px;
     margin: 0 120px;
-    padding:  50px 0 31px;
+    padding: 0;
     display: flex;
+    overflow: hidden;
     justify-content: space-between;
+    align-items: center;
 }

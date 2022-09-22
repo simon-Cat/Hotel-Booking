@@ -1,0 +1,21 @@
+@keyframes ani {
+    0% {transform: translateY; 
+        opacity:0;
+    }
+    
+    100% {transform: translateY(0); 
+        opacity:100%;
+    }
+  }
+
+.lead__images {
+    list-style: none;
+    max-width: 588px;
+    min-height: 685px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: start;
+ }
+
+

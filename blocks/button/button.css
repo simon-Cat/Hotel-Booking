@@ -1,0 +1,19 @@
+.button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: #0e1734;
+  border-radius: 4px;
+  padding: 16px 32px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s linear, color 0.3s linear;
+  border: 2px solid #0e1734;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: #0e1734;
+}

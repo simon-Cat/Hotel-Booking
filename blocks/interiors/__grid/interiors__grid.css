@@ -1,0 +1,9 @@
+.interiors__grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1090px 344px;
+  justify-items: center;
+  gap: 3px;
+}

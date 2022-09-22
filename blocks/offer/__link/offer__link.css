@@ -1,10 +1,9 @@
-.footer__link {
-  display: block;
+.offer__link {
   text-decoration: none;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: #d9dbde;
+  font-size: 18px;
+  line-height: 27px;
+  color: #424f7b;
 }

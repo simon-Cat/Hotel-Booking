@@ -1,5 +1,8 @@
 .offer__cards {
-    display: flex;
-    gap: 24px;
-    justify-content: center;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  margin-top: 88px;
 }

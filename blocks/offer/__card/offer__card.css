@@ -1,3 +1,5 @@
 .offer__card {
   max-width: 384px;
+  display: flex;
+  flex-direction: column;
 }

@@ -6,6 +6,7 @@
 
 /* page */
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/__interiors/page__interiors.css);
 
 /* logo */
 @import url(../blocks/logo/logo.css);

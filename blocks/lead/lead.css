@@ -8,3 +8,10 @@
     justify-content: space-between;
     align-items: center;
 }
+
+@media screen and (max-width: 1439px) {
+    .lead {
+        margin: 0 80px;
+    }
+    
+}

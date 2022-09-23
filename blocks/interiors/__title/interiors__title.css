@@ -10,3 +10,11 @@
   margin: 79.27px 0 37.65px 0;
   max-width: 446px;
 }
+
+@media screen and (max-width: 954px) {
+  .interiors__title {
+    font-size: 33px;
+    line-height: 50px;
+    margin-top: 59px;
+  }
+}

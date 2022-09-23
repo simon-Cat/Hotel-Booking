@@ -1,0 +1,11 @@
+.offer__symbol-arrow {
+  position: relative;
+  left: -7px;
+  opacity: 0;
+  transition: left 0.3s linear, opacity 0.3s linear;
+}
+
+.offer__link:hover .offer__symbol-arrow {
+  opacity: 1;
+  left: 0;
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hotel Booking</title>
     <link rel="stylesheet" href="pages/index.css" />
+    <style></style>
   </head>
   <body class="page">
     <section class="interiors">
@@ -17,6 +18,12 @@
             alt="Интерьер гостинной комнаты"
             class="interiors__image"
           />
+          <div class="interiors__control control">
+            <button class="control__button"></button>
+            <button class="control__button control__button_active"></button>
+            <button class="control__button"></button>
+            <button class="control__button"></button>
+          </div>
         </li>
         <li class="interiors__item">
           <img
@@ -64,7 +71,11 @@
             Уютный коттедж с 3 спальнями и бильярдом.
           </p>
           <a href="#" class="offer__link"
-            >Подробнее <img src="images/Arrow-right.svg" alt="Стрелка вправо"
+            >Подробнее
+            <img
+              src="images/Arrow-right.svg"
+              alt="Стрелка вправо"
+              class="offer__symbol-arrow"
           /></a>
         </article>
         <article class="offer__card">
@@ -81,7 +92,11 @@
             бильярдом.
           </p>
           <a href="#" class="offer__link"
-            >Подробнее <img src="images/Arrow-right.svg" alt="Стрелка вправо"
+            >Подробнее
+            <img
+              src="images/Arrow-right.svg"
+              alt="Стрелка вправо"
+              class="offer__symbol-arrow"
           /></a>
         </article>
         <article class="offer__card">
@@ -98,24 +113,38 @@
             для полноценного празднования нового года.
           </p>
           <a href="#" class="offer__link"
-            >Подробнее <img src="images/Arrow-right.svg" alt="Стрелка вправо"
+            >Подробнее
+            <img
+              src="images/Arrow-right.svg"
+              alt="Стрелка вправо"
+              class="offer__symbol-arrow"
           /></a>
         </article>
       </div>
     </div>
     <section class="feedback">
       <h2 class="feedback__title">Отзывы</h2>
-      <img
-        src="images/Ellipse 1.jpg"
-        alt="Фото девушки"
-        class="feedback__image"
-      />
-      <p class="feedback__description">
-        Мы очень долго искали коттедж, чтобы отметить день рождение. Все очень
-        понравилось. Комфортно, уютно,не дом, а сказка. Все очень понравилось,
-        хочется приехать еще сюда не один раз
-      </p>
-      <p class="feedback__author">Ирина Иванова</p>
+      <article class="feedback__card">
+        <img
+          src="images/Ellipse 1.jpg"
+          alt="Фото девушки"
+          class="feedback__image"
+        />
+        <p class="feedback__description">
+          Мы очень долго искали коттедж, чтобы отметить день рождение. Все очень
+          понравилось. Комфортно, уютно,не дом, а сказка. Все очень понравилось,
+          хочется приехать еще сюда не один раз
+        </p>
+        <p class="feedback__author">Ирина Иванова</p>
+      </article>
+      <div class="control">
+        <button class="control__button control__button_place_feedback"></button>
+        <button
+          class="control__button control__button_place_feedback control__button_active"
+        ></button>
+        <button class="control__button control__button_place_feedback"></button>
+        <button class="control__button control__button_place_feedback"></button>
+      </div>
     </section>
     <footer class="footer">
       <div class="footer__columns">

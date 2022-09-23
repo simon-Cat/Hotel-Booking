@@ -1,5 +1,6 @@
 .footer__columns {
+  flex-basis: 1200px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  margin: auto;
 }

@@ -1,4 +1,5 @@
 .footer {
   background-color: #0b265a;
-  padding: 120px;
+  min-height: 444px;
+  display: flex;
 }

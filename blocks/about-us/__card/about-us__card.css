@@ -9,3 +9,14 @@
 .about-us__card:nth-child(2n) {
     flex-direction: row-reverse;
 }
+
+@media screen and (max-width: 767px) {
+    .about-us__card {
+        flex-direction: column;
+    }
+
+    .about-us__card:nth-child(2n) {
+        flex-direction: column;
+    }
+    
+}

@@ -1,0 +1,16 @@
+.lead__item {
+    margin: 0 24px 0 0;
+    padding: 0;
+
+}
+
+.lead__item:last-of-type {
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .lead__item {
+        margin-right: 15px;
+    }
+    
+}

@@ -1,8 +1,6 @@
 .lead__image {
-    margin: 0 24px 0 0;
-    padding: 0;
-}
-
-.lead__image:last-of-type {
-    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: top;
 }

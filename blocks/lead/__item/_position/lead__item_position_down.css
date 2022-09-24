@@ -1,6 +1,6 @@
-.lead__image_position_down {
-    align-self: flex-end;
+.lead__item_position_down {
     transform: translateY(150%);
     opacity: 0;
     animation: ani 2s forwards;
+    margin-top: 15%;
 }

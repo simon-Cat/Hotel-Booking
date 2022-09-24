@@ -1,5 +1,31 @@
 .intro__image {
-    margin: 0 126px 0 0;
-    padding: 80px 0;
+    margin: 80px 126px 80px 0;
+    max-width: 100%;
+    padding: 0;
+    object-fit: cover;
+    object-position: bottom;
 }
 
+@media screen and (max-width: 1279px) {
+    .intro__image {
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .intro__image {
+        max-height: 500px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 50px; 
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro__image {
+        max-height: 500px;
+        margin-right: auto; 
+        margin-left: auto; 
+
+    }
+}

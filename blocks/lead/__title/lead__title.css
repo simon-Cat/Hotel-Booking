@@ -9,3 +9,25 @@
     letter-spacing: -0.01em;
     color: #192252;
 }
+
+@media screen and (max-width: 1439px) {
+    .lead__title {
+        font-size: 42px;
+    }
+    
+}
+
+@media screen and (max-width: 1439px) {
+    .lead__title {
+        font-size: 30px;
+        line-height: 120%;
+    }   
+}
+
+@media screen and (max-width: 767px) {
+    .lead__title {
+        font-size: 25px;
+        line-height: 120%;
+        text-align: center;
+    }   
+}

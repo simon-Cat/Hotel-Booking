@@ -1,4 +1,4 @@
-.lead__image_position_up {
+.lead__item_position_up {
     transform: translateY(-150%);
     opacity: 0;
     animation: ani 3s forwards;

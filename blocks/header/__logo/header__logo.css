@@ -16,3 +16,21 @@
 .header__logo:hover {
     opacity: 0.7;
 }
+
+@media screen and (max-width: 1023px) {
+    .header__logo {
+        width: 155px;
+        height: 22px;
+        object-fit: cover;
+        background-size: cover;
+    }
+   
+}
+
+@media screen and (max-width: 767px) {
+    .header__logo {
+        width: 220px;
+        height: 31px;
+    }
+   
+}

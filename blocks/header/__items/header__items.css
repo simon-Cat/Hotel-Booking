@@ -7,3 +7,12 @@
     display: flex;
 
 }
+
+@media screen and (max-width: 767px) {
+    .header__items {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+    
+}

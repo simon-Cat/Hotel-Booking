@@ -8,3 +8,18 @@
     line-height: 150%;
     color: #848FAC;
 }
+
+@media screen and (max-width: 1023px) {
+    .about-us__text {
+        font-size: 12px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .about-us__text {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+}

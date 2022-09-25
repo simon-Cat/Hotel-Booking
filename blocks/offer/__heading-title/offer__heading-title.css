@@ -9,10 +9,10 @@
   margin: 0 0 24px;
 }
 
-@media screen and (max-width: 474px) {
+@media screen and (max-width: 475px) {
   .offer__heading-title {
     margin: 0 0 14px;
-    font-size: 27px;
+    font-size: 25px;
     line-height: 30px;
   }
 }

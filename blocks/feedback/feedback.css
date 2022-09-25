@@ -5,3 +5,10 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+  .feedback {
+    min-height: auto;
+    margin-bottom: 60px;
+  }
+}

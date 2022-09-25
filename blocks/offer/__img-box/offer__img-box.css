@@ -1,0 +1,9 @@
+.offer__img-box {
+  margin: 0 0 32px;
+}
+
+@media screen and (max-width: 474px) {
+  .offer__img-box {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,17 @@
+.offer__heading-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #848fac;
+  margin: 0 0 32px;
+}
+
+@media screen and (max-width: 474px) {
+  .offer__heading-text {
+    font-size: 15px;
+    line-height: 27px;
+    margin: 0 10px 22px;
+  }
+}

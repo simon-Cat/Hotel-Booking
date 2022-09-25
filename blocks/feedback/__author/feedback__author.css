@@ -1,0 +1,17 @@
+.feedback__author {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #192252;
+  text-align: center;
+  margin: 0;
+}
+
+@media screen and (max-width: 474px) {
+  .feedback__author {
+    font-size: 17px;
+    line-height: 15px;
+  }
+}

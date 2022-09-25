@@ -1,0 +1,10 @@
+.feedback__image {
+  display: block;
+  margin-bottom: 44px;
+}
+
+@media screen and (max-width: 474px) {
+  .feedback__image {
+    max-width: 100px;
+  }
+}

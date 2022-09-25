@@ -1,0 +1,12 @@
+.footer__columns {
+  flex-basis: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+@media screen and (max-width: 1280px) {
+  .footer__columns {
+    margin: auto 40px;
+  }
+}

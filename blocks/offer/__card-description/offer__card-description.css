@@ -1,0 +1,18 @@
+.offer__card-description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #848fac;
+  flex-grow: 1;
+  margin: 0 0 18px;
+}
+
+@media screen and (max-width: 474px) {
+  .offer__card-description {
+    font-size: 13px;
+    line-height: 17px;
+    margin: 0 10px 10px;
+  }
+}

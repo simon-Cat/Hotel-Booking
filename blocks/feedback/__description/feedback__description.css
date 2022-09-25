@@ -1,0 +1,19 @@
+.feedback__description {
+  max-width: 793px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #848fac;
+  margin: 0 0 40px 0;
+}
+
+@media screen and (max-width: 474px) {
+  .feedback__description {
+    font-size: 15px;
+    line-height: 27px;
+    margin: 0 10px 30px;
+  }
+}

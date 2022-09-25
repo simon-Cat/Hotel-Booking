@@ -1,0 +1,23 @@
+.offer__card {
+  display: flex;
+  flex-direction: column;
+  max-width: 384px;
+}
+
+@media screen and (max-width: 1180px) {
+  .offer__card {
+    max-width: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .offer__card {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .offer__card {
+    max-width: 100%;
+  }
+}

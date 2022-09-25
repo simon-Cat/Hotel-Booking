@@ -12,7 +12,6 @@
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_place/button_place_header.css);
 
-
 /* header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -50,9 +49,6 @@
 
 /* logo */
 @import url(../blocks/logo/logo.css);
-
-/* button */
-@import url(../blocks/button/button.css);
 
 /* control */
 @import url(../blocks/control/control.css);

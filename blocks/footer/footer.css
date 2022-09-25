@@ -2,4 +2,6 @@
   background-color: #0b265a;
   min-height: 444px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }

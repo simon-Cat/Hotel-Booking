@@ -6,3 +6,16 @@
   flex-direction: column;
   gap: 24px;
 }
+
+@media screen and (max-width: 1024px) {
+  .footer__list {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .footer__list {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

@@ -9,3 +9,18 @@
   opacity: 1;
   left: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .offer__symbol-arrow {
+    max-width: 15px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .offer__symbol-arrow {
+    max-width: 13px;
+    opacity: 1;
+    left: 0;
+    transition: none;
+  }
+}

@@ -9,9 +9,16 @@
   align-self: flex-start;
 }
 
-@media screen and (max-width: 474px) {
+@media screen and (max-width: 768px) {
   .offer__link {
-    font-size: 13px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .offer__link {
+    font-size: 14px;
     line-height: 17px;
     margin-left: 10px;
   }

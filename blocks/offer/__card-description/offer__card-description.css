@@ -9,10 +9,18 @@
   margin: 0 0 18px;
 }
 
-@media screen and (max-width: 474px) {
+@media screen and (max-width: 768px) {
   .offer__card-description {
-    font-size: 13px;
-    line-height: 17px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .offer__card-description {
+    font-size: 14px;
+    line-height: 20px;
     margin: 0 10px 10px;
   }
 }

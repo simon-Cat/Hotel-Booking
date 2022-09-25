@@ -2,11 +2,22 @@
   flex-basis: 1200px;
   display: flex;
   justify-content: space-between;
-  margin: auto;
 }
 
 @media screen and (max-width: 1280px) {
   .footer__columns {
     margin: auto 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__columns {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .footer__columns {
+    margin: 20px;
   }
 }

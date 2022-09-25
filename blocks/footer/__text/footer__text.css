@@ -8,3 +8,11 @@
   margin: 16px 0 39px;
   max-width: 186px;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__text {
+    margin-bottom: 20px;
+    line-height: 25px;
+    max-width: 100%;
+  }
+}

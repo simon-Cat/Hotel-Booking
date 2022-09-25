@@ -5,3 +5,10 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+@media screen and (max-width: 475px) {
+  .logo_place_footer {
+    max-width: 180px;
+    background-size: contain;
+  }
+}

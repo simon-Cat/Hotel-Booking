@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 1180px) {
   .offer__card {
-    max-width: 40%;
+    max-width: 48%;
   }
 }
 
@@ -19,5 +19,6 @@
 @media screen and (max-width: 475px) {
   .offer__card {
     max-width: 100%;
+    margin-bottom: 40px;
   }
 }

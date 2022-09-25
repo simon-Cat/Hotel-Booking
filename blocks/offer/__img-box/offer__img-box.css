@@ -2,8 +2,21 @@
   margin: 0 0 32px;
 }
 
-@media screen and (max-width: 474px) {
+@media screen and (max-width: 1180px) {
   .offer__img-box {
+    max-height: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .offer__img-box {
+    margin-bottom: 18px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .offer__img-box {
+    height: 250px;
     margin-bottom: 10px;
   }
 }

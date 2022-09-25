@@ -1,2 +1,5 @@
-.footer__column {
+@media screen and (max-width: 1024px) {
+  .footer__column {
+    margin-bottom: 20px;
+  }
 }

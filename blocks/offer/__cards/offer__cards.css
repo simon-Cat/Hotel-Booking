@@ -9,6 +9,7 @@
   .offer__cards {
     flex-wrap: wrap;
     margin: 88px 40px 0;
+    row-gap: 40px;
   }
 }
 

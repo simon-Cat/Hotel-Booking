@@ -10,10 +10,10 @@
   margin: 0 0 62px 0;
 }
 
-@media screen and (max-width: 474px) {
+@media screen and (max-width: 475px) {
   .feedback__title {
-    font-size: 27px;
-    line-height: 27px;
-    margin-bottom: 30px;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 50px;
   }
 }

@@ -1,269 +1,319 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hotel Booking</title>
-    <link rel="stylesheet" href="pages/index.css">
-</head>
+    <link rel="stylesheet" href="pages/index.css" />
+  </head>
 
-<body>
+  <body>
     <div class="page">
-        <header class="header">
-            <a href="#" class="header__logo"></a>
-            <nav class="header__links">
-                <ul class="header__items">
-                    <li class="header__item"><a href="#intro" class=header__link>Дома</a></li>
-                    <li class="header__item"><a href="#" class=header__link>Бронирование</a></li>
-                    <li class="header__item"><a href="#" class=header__link>Контакты</a></li>
-                </ul>
-            </nav>
-            <button class="button button_place_header">Бронировать</button>
-        </header>
+      <header class="header">
+        <a href="#" class="header__logo"></a>
+        <nav class="header__links">
+          <ul class="header__items">
+            <li class="header__item">
+              <a href="#intro" class="header__link">Дома</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Бронирование</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="button button_place_header">Бронировать</button>
+      </header>
 
-        <main class="content">
-            <section class="lead">
-                <div class="lead__content">
-                    <h1 class="lead__title">Аренда загородного дома для отдыха</h1>
-                    <p class="lead__subtitle">Самые выгодные предложения по аренде коттеджей
-                        и загородных домов в Москве и области</p>
-                    <button name="intro" class="button">Бронирование</button>
+      <main class="content">
+        <section class="lead">
+          <div class="lead__content">
+            <h1 class="lead__title">Аренда загородного дома для отдыха</h1>
+            <p class="lead__subtitle">
+              Самые выгодные предложения по аренде коттеджей и загородных домов
+              в Москве и области
+            </p>
+            <button name="intro" class="button">Бронирование</button>
+          </div>
+          <ul class="lead__items">
+            <li class="lead__item lead__item_position_up">
+              <img
+                src="./images/meritt-thomas-u-Hb93V6IWI-unsplash1.jpg"
+                class="lead__image"
+                alt="Фото коллаж дома - 1"
+              />
+            </li>
+            <li class="lead__item lead__item_position_down">
+              <img
+                src="./images/meritt-thomas-u-Hb93V6IWI-unsplash2.jpg"
+                class="lead__image"
+                alt="Фото коллаж дома - 2"
+              />
+            </li>
+            <li class="lead__item lead__item_position_up">
+              <img
+                src="./images/meritt-thomas-u-Hb93V6IWI-unsplash3.jpg"
+                class="lead__image"
+                alt="Фото коллаж дома - 3"
+              />
+            </li>
+          </ul>
+        </section>
 
-                </div>
-                <ul class="lead__items">
-                    <li class="lead__item lead__item_position_up"><img
-                            src="./images/meritt-thomas-u-Hb93V6IWI-unsplash1.jpg" class="lead__image"
-                            alt="Фото коллаж дома - 1"></li>
-                    <li class="lead__item lead__item_position_down"><img
-                            src="./images/meritt-thomas-u-Hb93V6IWI-unsplash2.jpg" class="lead__image"
-                            alt="Фото коллаж дома - 2"></li>
-                    <li class="lead__item lead__item_position_up"><img
-                            src="./images/meritt-thomas-u-Hb93V6IWI-unsplash3.jpg" class="lead__image"
-                            alt="Фото коллаж дома - 3"></li>
-                </ul>
-            </section>
+        <section class="intro" id="intro" aria-label="Выбор дома">
+          <img
+            src="./images/intro__image.jpg"
+            class="intro__image"
+            alt="Двухэтажный дом"
+          />
+          <article class="intro__content">
+            <h2 class="intro__title">
+              Уютный двухэтажный дом в норвежском стиле
+            </h2>
+            <p class="intro__text">
+              Просторные коттеджи с видом на лес полностью укомплектованы:
+              кондиционер, холодильник, посудомоечная машина, газовая плита,
+              духовка, микроволновая печь, чайник, набор посуды и столовых
+              приборов. В каждом коттедже: стиральная машина, гладильная
+              станция, сушилка для белья, фен.
+            </p>
+            <button class="button">Подробнее</button>
+          </article>
+        </section>
 
-            <section class="intro" id="intro" aria-label="Выбор дома">
-                <img src="./images/intro__image.jpg" class="intro__image" alt="Двухэтажный дом">
-                <article class="intro__content">
-                    <h2 class="intro__title">Уютный двухэтажный дом в норвежском стиле</h2>
-                    <p class="intro__text">Просторные коттеджи с видом на лес полностью укомплектованы:
-                        кондиционер, холодильник, посудомоечная машина, газовая плита, духовка,
-                        микроволновая печь, чайник, набор посуды и столовых приборов. В каждом коттедже:
-                        стиральная машина, гладильная станция, сушилка для белья, фен. </p>
-                    <button class="button">Подробнее</button>
-                </article>
-            </section>
+        <section class="about-us" aria-label="Наши преимущества">
+          <div class="about-us__cards">
+            <article class="about-us__card">
+              <div class="about-us__content">
+                <h2 class="about-us__title">Активности</h2>
+                <p class="about-us__text">
+                  К вашим услугам наши прекрасные повора, которые приготовят
+                  вкусную еду по составленную для вас персональному меню. Также
+                  вы сможете воспользоваться СПА, тренажерным залом и прочими
+                  услугами, доступными на нашей территории.
+                </p>
+              </div>
+              <img
+                src="./images/about-us__image1.jpg"
+                class="about-us__image"
+                alt="Активности"
+              />
+            </article>
 
-            <section class="about-us" aria-label="Наши преимущества">
-                <div class="about-us__cards">
-                    <article class="about-us__card">
-                        <div class="about-us__content">
-                            <h2 class="about-us__title">Активности</h2>
-                            <p class="about-us__text">К вашим услугам наши прекрасные повора, которые приготовят вкусную
-                                еду по составленную для вас персональному меню. Также вы сможете воспользоваться СПА,
-                                тренажерным залом и прочими услугами, доступными на нашей территории.</p>
-                        </div>
-                        <img src="./images/about-us__image1.jpg" class="about-us__image" alt="Активности">
-                    </article>
-
-                    <article class="about-us__card">
-                        <div class="about-us__content">
-                            <h2 class="about-us__title">100% Натуральные продукты</h2>
-                            <p class="about-us__text">При приготовлении наших блюд мы используем только свежие,
-                                полезные, натуральные продукты.</p>
-                        </div>
-                        <img src="./images/about-us__image2.jpg" class="about-us__image" alt="Продукты">
-                    </article>
-                </div>
-            </section>
-            <section class="page__interiors interiors">
-              <h2 class="interiors__title">Наши интерьеры</h2>
-              <ul class="interiors__grid">
-                <li class="interiors__item">
-                  <img
-                    src="images/image 22.jpg"
-                    alt="Интерьер гостинной комнаты"
-                    class="interiors__image"
-                  />
-                  <div class="interiors__control control">
-                    <button class="control__button"></button>
-                    <button class="control__button control__button_active"></button>
-                    <button class="control__button"></button>
-                    <button class="control__button"></button>
-                  </div>
+            <article class="about-us__card">
+              <div class="about-us__content">
+                <h2 class="about-us__title">100% Натуральные продукты</h2>
+                <p class="about-us__text">
+                  При приготовлении наших блюд мы используем только свежие,
+                  полезные, натуральные продукты.
+                </p>
+              </div>
+              <img
+                src="./images/about-us__image2.jpg"
+                class="about-us__image"
+                alt="Продукты"
+              />
+            </article>
+          </div>
+        </section>
+        <section class="page__interiors interiors">
+          <h2 class="interiors__title">Наши интерьеры</h2>
+          <ul class="interiors__grid">
+            <li class="interiors__item">
+              <img
+                src="images/image 22.jpg"
+                alt="Интерьер гостинной комнаты"
+                class="interiors__image"
+              />
+              <div class="interiors__control control">
+                <button class="control__button"></button>
+                <button class="control__button control__button_active"></button>
+                <button class="control__button"></button>
+                <button class="control__button"></button>
+              </div>
+            </li>
+            <li class="interiors__item">
+              <img
+                src="images/image 25.jpg"
+                alt="Интерьер кухня-прихожая"
+                class="interiors__image"
+              />
+            </li>
+            <li class="interiors__item">
+              <img
+                src="images/image 26.jpg"
+                alt="Интерьер кухня"
+                class="interiors__image"
+              />
+            </li>
+            <li class="interiors__item">
+              <img
+                src="images/image 27.jpg"
+                alt="Интерьер гостинной комнаты"
+                class="interiors__image"
+              />
+            </li>
+          </ul>
+        </section>
+        <div class="offer">
+          <section class="offer__heading">
+            <h2 class="offer__heading-title">Выберите ваш дом</h2>
+            <p class="offer__heading-text">
+              У нас есть дома для любых мероприятий. Для большой компании у нас
+              есть двухэтажный дом на самом краю леса.
+            </p>
+            <button class="button offer__button">Подробнее</button>
+          </section>
+          <div class="offer__cards">
+            <article class="offer__card">
+              <div class="offer__img-box">
+                <img
+                  src="images/image 11.jpg"
+                  alt="Уютный домик, девушка на кровати держит в руке куржку чая и смотрит в окно"
+                  class="offer__image"
+                />
+              </div>
+              <h2 class="offer__card-title">Маленький домик</h2>
+              <p class="offer__card-description">
+                Уютный коттедж с 3 спальнями и бильярдом.
+              </p>
+              <a href="#" class="offer__link"
+                >Подробнее
+                <img
+                  src="images/Arrow-right.svg"
+                  alt="Стрелка вправо"
+                  class="offer__symbol-arrow"
+              /></a>
+            </article>
+            <article class="offer__card">
+              <div class="offer__img-box">
+                <img
+                  src="images/image 10.jpg"
+                  alt="Девушка в кровати читает книгу"
+                  class="offer__image"
+                />
+              </div>
+              <h2 class="offer__card-title">Большой дом</h2>
+              <p class="offer__card-description">
+                266 кв.м. с тремя спальнями, четырьмя санузлами, камином и
+                бильярдом.
+              </p>
+              <a href="#" class="offer__link"
+                >Подробнее
+                <img
+                  src="images/Arrow-right.svg"
+                  alt="Стрелка вправо"
+                  class="offer__symbol-arrow"
+              /></a>
+            </article>
+            <article class="offer__card">
+              <div class="offer__img-box">
+                <img
+                  src="images/ian-keefe-OgcJIKRnRC8-unsplash 1.jpg"
+                  alt="Вид на заснеженный деревянный домик возле пруда"
+                  class="offer__image"
+                />
+              </div>
+              <h2 class="offer__card-title">Двухэтажный дом</h2>
+              <p class="offer__card-description">
+                Коттедж с сауной, четырьмя спальнями и бильярдом. Идеально
+                подойдет для полноценного празднования нового года.
+              </p>
+              <a href="#" class="offer__link"
+                >Подробнее
+                <img
+                  src="images/Arrow-right.svg"
+                  alt="Стрелка вправо"
+                  class="offer__symbol-arrow"
+              /></a>
+            </article>
+          </div>
+        </div>
+        <section class="feedback">
+          <h2 class="feedback__title">Отзывы</h2>
+          <article class="feedback__card">
+            <img
+              src="images/Ellipse 1.jpg"
+              alt="Фото девушки"
+              class="feedback__image"
+            />
+            <p class="feedback__description">
+              Мы очень долго искали коттедж, чтобы отметить день рождение. Все
+              очень понравилось. Комфортно, уютно,не дом, а сказка. Все очень
+              понравилось, хочется приехать еще сюда не один раз
+            </p>
+            <p class="feedback__author">Ирина Иванова</p>
+          </article>
+          <div class="control">
+            <button
+              class="control__button control__button_place_feedback"
+            ></button>
+            <button
+              class="control__button control__button_place_feedback control__button_active"
+            ></button>
+            <button
+              class="control__button control__button_place_feedback"
+            ></button>
+            <button
+              class="control__button control__button_place_feedback"
+            ></button>
+          </div>
+        </section>
+        <footer class="footer">
+          <div class="footer__columns">
+            <div class="footer__column footer__column_content_info">
+              <div class="logo logo_place_footer"></div>
+              <p class="footer__text">
+                Загородный отдых с замечательными видами
+              </p>
+              <ul class="footer__icons">
+                <li>
+                  <a href="#" class="footer__icon"
+                    ><img src="images/Twitter.svg" alt="Логотип Twitter"
+                  /></a>
                 </li>
-                <li class="interiors__item">
-                  <img
-                    src="images/image 25.jpg"
-                    alt="Интерьер кухня-прихожая"
-                    class="interiors__image"
-                  />
-                </li>
-                <li class="interiors__item">
-                  <img
-                    src="images/image 26.jpg"
-                    alt="Интерьер кухня"
-                    class="interiors__image"
-                  />
-                </li>
-                <li class="interiors__item">
-                  <img
-                    src="images/image 27.jpg"
-                    alt="Интерьер гостинной комнаты"
-                    class="interiors__image"
-                  />
+                <li>
+                  <a href="#" class="footer__icon"
+                    ><img src="images/VK.svg" alt="Логотип Vkontakte"
+                  /></a>
                 </li>
               </ul>
-            </section>
-            <div class="offer">
-              <section class="offer__heading">
-                <h2 class="offer__heading-title">Выберите ваш дом</h2>
-                <p class="offer__heading-text">
-                  У нас есть дома для любых мероприятий. Для большой компании у нас есть
-                  двухэтажный дом на самом краю леса.
-                </p>
-                <button class="button offer__button">Подробнее</button>
-              </section>
-              <div class="offer__cards">
-                <article class="offer__card">
-                  <div class="offer__img-box">
-                    <img
-                      src="images/image 11.jpg"
-                      alt="Уютный домик, девушка на кровати держит в руке куржку чая и смотрит в окно"
-                      class="offer__image"
-                    />
-                  </div>
-                  <h2 class="offer__card-title">Маленький домик</h2>
-                  <p class="offer__card-description">
-                    Уютный коттедж с 3 спальнями и бильярдом.
-                  </p>
-                  <a href="#" class="offer__link"
-                    >Подробнее
-                    <img
-                      src="images/Arrow-right.svg"
-                      alt="Стрелка вправо"
-                      class="offer__symbol-arrow"
-                  /></a>
-                </article>
-                <article class="offer__card">
-                  <div class="offer__img-box">
-                    <img
-                      src="images/image 10.jpg"
-                      alt="Девушка в кровати читает книгу"
-                      class="offer__image"
-                    />
-                  </div>
-                  <h2 class="offer__card-title">Большой дом</h2>
-                  <p class="offer__card-description">
-                    266 кв.м. с тремя спальнями, четырьмя санузлами, камином и
-                    бильярдом.
-                  </p>
-                  <a href="#" class="offer__link"
-                    >Подробнее
-                    <img
-                      src="images/Arrow-right.svg"
-                      alt="Стрелка вправо"
-                      class="offer__symbol-arrow"
-                  /></a>
-                </article>
-                <article class="offer__card">
-                  <div class="offer__img-box">
-                    <img
-                      src="images/ian-keefe-OgcJIKRnRC8-unsplash 1.jpg"
-                      alt="Вид на заснеженный деревянный домик возле пруда"
-                      class="offer__image"
-                    />
-                  </div>
-                  <h2 class="offer__card-title">Двухэтажный дом</h2>
-                  <p class="offer__card-description">
-                    Коттедж с сауной, четырьмя спальнями и бильярдом. Идеально подойдет
-                    для полноценного празднования нового года.
-                  </p>
-                  <a href="#" class="offer__link"
-                    >Подробнее
-                    <img
-                      src="images/Arrow-right.svg"
-                      alt="Стрелка вправо"
-                      class="offer__symbol-arrow"
-                  /></a>
-                </article>
-              </div>
             </div>
-            <section class="feedback">
-              <h2 class="feedback__title">Отзывы</h2>
-              <article class="feedback__card">
-                <img
-                  src="images/Ellipse 1.jpg"
-                  alt="Фото девушки"
-                  class="feedback__image"
-                />
-                <p class="feedback__description">
-                  Мы очень долго искали коттедж, чтобы отметить день рождение. Все очень
-                  понравилось. Комфортно, уютно,не дом, а сказка. Все очень понравилось,
-                  хочется приехать еще сюда не один раз
-                </p>
-                <p class="feedback__author">Ирина Иванова</p>
-              </article>
-              <div class="control">
-                <button class="control__button control__button_place_feedback"></button>
-                <button
-                  class="control__button control__button_place_feedback control__button_active"
-                ></button>
-                <button class="control__button control__button_place_feedback"></button>
-                <button class="control__button control__button_place_feedback"></button>
-              </div>
-            </section>
-            <footer class="footer">
-              <div class="footer__columns">
-                <div class="footer__column footer__column_content_info">
-                  <div class="logo logo_place_footer"></div>
-                  <p class="footer__text">Загородный отдых с замечательными видами</p>
-                  <ul class="footer__icons">
-                    <li>
-                      <a href="#" class="footer__icon"
-                        ><img src="images/Twitter.svg" alt="Логотип Twitter"
-                      /></a>
-                    </li>
-                    <li>
-                      <a href="#" class="footer__icon"
-                        ><img src="images/VK.svg" alt="Логотип Vkontakte"
-                      /></a>
-                    </li>
-                  </ul>
-                </div>
-                <nav class="footer__column footer__column_content_houses">
-                  <h2 class="footer__title">Дома</h2>
-                  <ul class="footer__list">
-                    <li><a href="#" class="footer__link">Маленький домик</a></li>
-                    <li><a href="#" class="footer__link">Большой дом</a></li>
-                    <li><a href="#" class="footer__link">Двухэтажный дом</a></li>
-                  </ul>
-                </nav>
-                <nav class="footer__column footer__column_content_booking">
-                  <h2 class="footer__title">Бронирование</h2>
-                  <ul class="footer__list">
-                    <li><a href="#" class="footer__link">Оформление</a></li>
-                    <li><a href="#" class="footer__link">Оплата</a></li>
-                  </ul>
-                </nav>
-                <nav class="footer__column footer__column_content_contacts">
-                  <h2 class="footer__title">Контакты</h2>
-                  <ul class="footer__list">
-                    <li><a href="#" class="footer__link">8-800-555-35-35</a></li>
-                    <li><a href="#" class="footer__link">email@yandex.ru</a></li>
-                    <li>
-                      <a href="#" class="footer__link"
-                        >Деревня Кимжа, Архангельская область</a
-                      >
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-            </footer>
-        </main>
+            <div class="footer__navigation">
+              <nav class="footer__column footer__column_content_houses">
+                <h2 class="footer__title">Дома</h2>
+                <ul class="footer__list">
+                  <li><a href="#" class="footer__link">Маленький домик</a></li>
+                  <li><a href="#" class="footer__link">Большой дом</a></li>
+                  <li><a href="#" class="footer__link">Двухэтажный дом</a></li>
+                </ul>
+              </nav>
+              <nav class="footer__column footer__column_content_booking">
+                <h2 class="footer__title">Бронирование</h2>
+                <ul class="footer__list">
+                  <li><a href="#" class="footer__link">Оформление</a></li>
+                  <li><a href="#" class="footer__link">Оплата</a></li>
+                </ul>
+              </nav>
+              <nav class="footer__column footer__column_content_contacts">
+                <h2 class="footer__title">Контакты</h2>
+                <ul class="footer__list">
+                  <li><a href="#" class="footer__link">8-800-555-35-35</a></li>
+                  <li><a href="#" class="footer__link">email@yandex.ru</a></li>
+                  <li>
+                    <a href="#" class="footer__link"
+                      >Деревня Кимжа, Архангельская область</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </footer>
+      </main>
     </div>
   </body>
 </html>

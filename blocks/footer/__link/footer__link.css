@@ -9,6 +9,14 @@
   color: #d9dbde;
 }
 
+.footer__link {
+  transition: opacity 1s ease;
+}
+
+.footer__link:hover {
+  opacity: 0.7;
+}
+
 @media screen and (max-width: 1024px) {
   .footer__link {
     font-size: 14px;

@@ -7,3 +7,11 @@
   color: #000000;
   margin: 0 0 16px;
 }
+
+@media screen and (max-width: 474px) {
+  .offer__card-title {
+    font-size: 17px;
+    line-height: 25px;
+    margin: 0 10px 10px;
+  }
+}

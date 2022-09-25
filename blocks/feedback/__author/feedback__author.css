@@ -8,3 +8,10 @@
   text-align: center;
   margin: 0;
 }
+
+@media screen and (max-width: 474px) {
+  .feedback__author {
+    font-size: 17px;
+    line-height: 15px;
+  }
+}

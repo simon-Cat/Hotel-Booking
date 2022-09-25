@@ -9,3 +9,11 @@
   color: #848fac;
   margin: 0 0 40px 0;
 }
+
+@media screen and (max-width: 474px) {
+  .feedback__description {
+    font-size: 15px;
+    line-height: 27px;
+    margin: 0 10px 30px;
+  }
+}

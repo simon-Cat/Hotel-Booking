@@ -9,3 +9,11 @@
   color: #192252;
   margin: 0 0 62px 0;
 }
+
+@media screen and (max-width: 474px) {
+  .feedback__title {
+    font-size: 27px;
+    line-height: 27px;
+    margin-bottom: 30px;
+  }
+}

@@ -17,3 +17,9 @@
   background-color: #ffffff;
   color: #0e1734;
 }
+
+@media screen and (max-width: 474px) {
+  .button {
+    padding: 14px 28px;
+  }
+}

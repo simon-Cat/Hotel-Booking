@@ -1,8 +1,26 @@
 .offer__cards {
   display: flex;
-  gap: 24px;
-  justify-content: center;
-  align-items: stretch;
-  flex-wrap: wrap;
-  margin-top: 88px;
+  justify-content: space-between;
+  margin: 88px auto 0;
+  max-width: 1200px;
+}
+
+@media screen and (max-width: 1180px) {
+  .offer__cards {
+    flex-wrap: wrap;
+    margin: 88px 40px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .offer__cards {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .offer__cards {
+    display: block;
+    margin: 88px 0 0;
+  }
 }

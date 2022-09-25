@@ -8,3 +8,11 @@
   flex-grow: 1;
   margin: 0 0 18px;
 }
+
+@media screen and (max-width: 474px) {
+  .offer__card-description {
+    font-size: 13px;
+    line-height: 17px;
+    margin: 0 10px 10px;
+  }
+}
